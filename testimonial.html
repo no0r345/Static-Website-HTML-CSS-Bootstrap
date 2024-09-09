@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Testimonial</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <style>
+       
+/* carousel */
+        body {
+    background: aliceblue;
+}
+.carousel{
+    height: 100vh;
+    perspective: 250px;
+}
+.carousel .carousel-item{
+    width: 450px;
+}
+.card {
+	position: relative;
+	margin: .5rem 0 1rem 0;
+	background-color: #fff;
+	width: 450px;
+	height: 379px;
+	color: #262626;
+	border-radius: 100px;
+	box-shadow: 0 8px 20px 0px rgba(0,0,0,0.2);
+}
+.img-area img {
+	border-radius: 50%;
+	border: 7px solid #fff;
+	margin-top: -80px;
+}
+
+.box1 {
+	background: #005bae;
+	height: 120px;
+	border-radius: 25px 25px 0 0;
+}
+.img-area {
+  text-align: center;
+}
+.img-area img {
+  width: 30%;
+}
+.main-text {
+	padding: 8px 0;
+	text-align: center;
+}
+.main-text h2 {
+	font-weight: 900;
+	font-size: 20px;
+	margin: 0 0 20px;
+	font-family: 'Alfa Slab One', cursive;
+}
+
+.main-text p{
+  font-size: 16px;
+  padding: 0 35px;
+}
+/* carousel ended */
+/* footer */
+#footer{
+    background-color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+/* logo/ */
+.logos{
+    margin-top: 10px;
+}
+
+
+/* ended */
+
+
+    </style>
+</head>
+<body>
+     <!-- header starts -->
+    <header id="headers">
+        <a class="a" href="#"><img src="assets/logo.png" alt="This is a logo" class="logos"></a>
+        <div>    
+          <ul id="navbars">
+               <li class="li"><a class="a" href="index.html">Home</a></li>
+               <li class="li"><a class="a" href="shop.html">Shop</a></li>
+               <li class="li"><a class="a active" href="Testimonial.html">Testimonial</a></li>
+               <li class="li"><a class="a" href="about.html">About</a></li>
+               <li class="li"><a class="a" href="support.html">Support</a></li>
+               <li id="lg-bag" class="li"><a class="a" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+               <a class="a" href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+   
+           </ul>
+        </div>
+        <div id="mobile">
+           <a class="a" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+           <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+          
+       </header>
+         <!-- header finished -->
+         <!-- Carousel starts -->
+<div class="container">
+    <div class="profile">
+        <div class="carousel">
+            <a class="carousel-item" href="#">
+                <div class="card">
+                    <div class="box1"></div>
+                    <div class="img-area"><img src="assets/p1.jpg" alt=""></div>
+                    <div class="main-text">
+                        <h2>Person One</h2>
+                        <p>"OceanGate's data storage devices are incredible! The speed and capacity exceeded my expectations. A reliable companion for my work and personal files."</p>
+                    </div>
+                </div>
+            </a>
+            <a class="carousel-item" href="#">
+                <div class="card">
+                    <div class="box1"></div>
+                    <div class="img-area"><img src="assets/p2.jpg" alt=""></div>
+                    <div class="main-text">
+                        <h2>Person two</h2>
+                        <p>"Impressed with OceanGate's seamless customer service. They assisted me in finding the perfect storage solution for my needs. Highly recommended!"</p>
+                    </div>
+                </div>
+            </a>
+            <a class="carousel-item" href="#">
+                <div class="card">
+                    <div class="box1"></div>
+                    <div class="img-area"><img src="assets/p3.jpg" alt=""></div>
+                    <div class="main-text">
+                        <h2>Person three</h2>
+                        <p>"OceanGate's sleek and durable design makes their devices stand out. The secure data encryption provides peace of mind. Thrilled with my purchase!"</p>
+                    </div>
+                </div>
+            </a>
+            <a class="carousel-item" href="#">
+                <div class="card">
+                    <div class="box1"></div>
+                    <div class="img-area"><img src="assets/p4.jpg" alt=""></div>
+                    <div class="main-text">
+                        <h2>Person four</h2>
+                        <p>"Fast shipping and well-packaged delivery from OceanGate. The setup was a breeze, and their user-friendly interface is perfect for tech enthusiasts like me."</p>
+                    </div>
+                </div>
+            </a>
+            <a class="carousel-item" href="#">
+                <div class="card">
+                    <div class="box1"></div>
+                    <div class="img-area"><img src="assets/p5.jpeg" alt=""></div>
+                    <div class="main-text">
+                        <h2>Person five</h2>
+                        <p>"I've been using OceanGate products for years, and they never disappoint. Upgrading to their latest device was a wise decision. Thank you, OceanGate!"</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+     <!-- carousel ended -->
+      <!-- news letter starts -->
+      <section id="newsletter" class="sectmar sectpad">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest Shop and <span>special offers</span>.</p>
+        </div>
+        <div class="form">
+            <input id="inputfield" placeholder="Your email address">
+            <button class="abnormal">Sign Up</button>
+        </div>
+
+      </section>
+      <!-- footer starts -->
+      <footer id="footer" class="sectmar sectpad">
+        <div class="colu">
+            <img src="assets/logo.png" alt="this is a logo" class="logos onel">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>1234 Elm Street, Springfield, Dummyville, 98765, Dummyland.</p>
+            <p><strong>Phone:</strong> +01 2222 365 /(+91) 01 2345 6789</p>
+            <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+            <div class="follows">
+                <h4>Follow Us</h4>
+                <div class="icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="colu">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="colu">
+            <h4>My Account</h4>
+            <a href="#">My Account</a>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="colu install">
+            <h4>Install App</h4>
+            <p>From App Store Or Google Play</p>
+            <div class="row">
+                <img src="assets/app.jpg" alt="">
+                <img src="assets/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="assets/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>© [OceanGate]. All rights reserved.</p>
+        </div>
+
+      </footer>
+
+            <!-- footer ended -->
+  
+      
+    
+          
+     
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <script>
+         $(document).ready(function(){
+            $('.carousel').carousel();
+          });	
+    </script>
+    <script src="./Folder/script.js"></script>
+    <script src="https://kit.fontawesome.com/a623e91a78.js" crossorigin="anonymous"></script>
+</body>
+</html>

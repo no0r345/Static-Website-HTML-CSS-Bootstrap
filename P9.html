@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Page</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.product-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.product-image {
+  flex: 1;
+  text-align: center;
+}
+
+.product-image img {
+  max-width: 100%;
+  max-height: 400px;
+  border-radius: 5px;
+}
+
+.product-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.product-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.product-features-heading {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-features-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.product-features-table th,
+.product-features-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-features-table th {
+  background-color: #f3f3f3;
+}
+
+.product-button {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.product-button:hover {
+  background-color: #555;
+}
+
+  </style>
+</head>
+<body>
+   
+  <div class="product-page">
+    <div class="product-image">
+      <img src="../assets/NAS/12-Bay NAS System (24 TB).jpg" alt="Product Image">
+    </div>
+    <div class="product-content">
+      <h1 class="product-title">12-Bay NAS System (24 TB)</h1>
+      <p class="product-description">Dummy description for the Blu-ray Disc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat enim et lacus malesuada feugiat. Vestibulum vitae ligula elit. Curabitur vehicula felis nec urna tristique, id facilisis mi ullamcorper.</p>
+      
+      <h2 class="product-features-heading">Features:</h2>
+      <table class="product-features-table">
+        <tr>
+          <th>Feature</th>
+          <th>Details</th>
+        </tr>
+        <tr>
+          <td>Color</td>
+          <td>Black</td>
+        </tr>
+        <tr>
+          <td>Storage Capacity</td>
+          <td>24 TB</td>
+        </tr>
+        <tr>
+          <td>RAID Support</td>
+          <td>Redundancy</td>
+        </tr>
+        <tr>
+          <td>Video Playback</td>
+          <td>Seamless</td>
+        </tr>
+        <tr>
+          <td>Compatibility</td>
+          <td>Versatile</td>
+        </tr>
+        <tr>
+          <td>Durability</td>
+          <td>Robust</td>
+        </tr>
+      </table>
+      
+      <a href="#" class="product-button">Add to Cart</a>
+    </div>
+  </div>
+</body>
+</html>
